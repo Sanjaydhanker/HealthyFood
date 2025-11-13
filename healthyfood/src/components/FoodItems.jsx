@@ -11,7 +11,7 @@ function FoodItems({ foodList }) {
           >
             <h1 className="text-green-800 font-medium text-xl">{item}</h1>
             <button
-              className="rounded shadow px-4 py-1 bg-indigo-500 text-white cursor-pointer hover:bg-indigo-600 active:bg-gray-500"
+              className="rounded shadow px-4 py-1 bg-indigo-500 text-white cursor-pointer hover:bg-indigo-600 active:bg-red-500 "
               onClick={(e) => console.log(`${item} clicked`)}
             >
               Buy
